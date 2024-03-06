@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type ="text/css" href ="carreraCoches.css">
+    <script src = https://code.jquery.com/jquery-3.6.1.min.js></script>
+    <script type = text/javascript src ="carreraCoches.js"></script> 
+    <title>Carrera de Coches</title>
+</head>
+<body>
+    <!--Inserto un título -->
+   <h1>Carrera de coches</h1>
+
+    <!--Creo un formulario con nueve "select" distintos para elegir la cantidad de coches que correrán en la carrera  -->
+<div id="divEleccion">
+    <form id="formulario">
+        <fieldset>
+         <legend>Elige los coches participantes</legend>
+                <label>
+                    <select name="numeroCoches" id="numeroCoches">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </label> 
+                <br>                
+        </fieldset>   
+        <!--Pongo un botón para elegir el número de coches -->
+        <div id="eleccion">
+            <button id="botonElegir" type ="submit">Elegir</button>
+        </div>
+    </form> 
+</div>
+
+<!--Este div es para incluir los coches, la carretera y la tabla una vez se haya elegido el número de coches -->
+<div id="pista">   
+    <div id = "coches"></div>
+
+    <table id="tabla">
+        <tr>
+            <th>Posición</th>
+            <th>Tiempo</th>
+        </tr>
+    </table>
+</div> 
+
+<!--Estos botones son para iniciar y reiniciar la carrera  -->
+<div id="botones">
+    <button id="inicio">Iniciar</button>
+    <button id="reinicio">Reiniciar</button>
+</div>
+
+<!--Este botón es para recargar la página de nuevo y hacer una nueva elección de coches -->
+<div id="botonVolver">
+    <button id="volver">Nueva carrera</button>
+</div>
+
+
+</form>
+</body>
+</html>

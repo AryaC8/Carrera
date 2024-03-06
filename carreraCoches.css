@@ -1,0 +1,109 @@
+html, body{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+}
+
+h1{
+    color:coral;
+    text-align: center;
+    font-family: Arial;
+    font-size: 70px;
+}
+
+#divEleccion, #eleccion{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+legend{
+    font-weight: Bold;
+    font-size: 20px;
+}
+
+fieldset{
+    background-color: rgb(168, 233, 211);
+    text-align: center;
+    width: 300px;
+    padding-top: 20px;    
+}
+
+#botonElegir{
+    height: 50px;
+    width: 100px;
+    background-color:  rgb(248, 184, 161);
+    border-color: bisque;
+    color: rgb(69, 158, 128);
+    font-size: 20px;
+    font-weight: bold;    
+}
+#pista{
+    margin-top: 0px;
+    width: 100%;
+    height: 700px;
+    background-image: url(img/meta.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:100% 100%;
+    display: none;
+}
+#coches{
+    width: 1200px;
+    height: 700px;
+
+}
+#coches img{
+    position:relative;
+    width: 65px;
+    height: 60px;
+    margin-left: 0px;
+}
+#coche1, #coche2, #coche3, #coche4,
+#coche5, #coche6, #coche7, #coche8,
+#coche9{
+    margin-left: 0px;
+    margin-top: 10px;
+    position: relative;
+    size: relative;        
+}
+#tabla{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    display: none;
+}
+table, tr, td{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+#botones, #botonVolver{
+    text-align: center;
+    
+}
+#inicio, #reinicio, #volver{   
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: 400;
+    border:1px solid;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;    
+}
+#inicio{
+    background-color: green; 
+    margin-right: 20px;    
+    display: none;  
+}
+#reinicio{
+    background-color:rgb(204, 198, 198);
+    margin-left: 20px;    
+    display: none;
+}
+#volver{    
+    background-color: dodgerblue;  
+    display: none; 
+}
